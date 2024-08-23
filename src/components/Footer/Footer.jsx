@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='w-full h-screen bg-zinc-900 p-16 flex gap-5 font-["Founders_Grotesk_X-Condensed, Roboto, sans-serif"]'>
+        <div className='w-full h-screen  p-16 flex gap-5 font-["Founders_Grotesk_X-Condensed, Roboto, sans-serif"]'>
             <div className="w-1/2  h-full flex flex-col justify-between ">
                 <div className="heading">
 

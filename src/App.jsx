@@ -14,7 +14,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full  text-white bg-zinc-900'>
+    <div className='w-full  bg-[#F1F1F1]'>
       <Navbar />
       <LandingPage />
       <Marquee />
