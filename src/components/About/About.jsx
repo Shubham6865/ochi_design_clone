@@ -16,7 +16,7 @@ const About = () => {
     return (
 
 
-        <div className='w-full p-[5vw] -mt-10  bg-[#CDEA68] rounded-t-3xl text-black '>
+        <div className='w-full p-[5vw] -mt-10  bg-[#CDEA68] rounded-t-3xl text-black ' id='aboutus'>
             <h1 className=" font-['Neue_Montreal, Roboto, sans-serif'] text-[3.5vw] leading-[3.5vw] pt-4 md:pt-0  ">Ochi is a strategic presentation agency for forward-thinking businesses that need to <span className='underline'>raise funds</span>, <span className='underline'>sell products</span>, <span className='underline'> explain complex ideas</span>, and <span className='underline'>hire great people.</span> </h1>
 
             <div className="w-full md:flex font-['Neue_Montreal, Roboto, sans-serif'] border-t-[1px] pt-10 mt-10 border-[#a1b562]">

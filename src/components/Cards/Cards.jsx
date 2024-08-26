@@ -4,7 +4,7 @@ import React from 'react';
 
 const Cards = () => {
     return (
-        <div className='w-full bg-zinc-100 md:flex gap-5 md:px-20 px-5 text-white my-20 md:my-2 items-center'>
+        <div className='w-full bg-zinc-100 md:flex gap-5 md:px-20 px-5 text-white my-20 md:my-2 items-center' id='services'>
             {/* First Card */}
             <div className="cardContainer md:w-1/2 h-[50vh] mb-10 md:mb-0">
                 <div className="card w-full h-full bg-[#004D43] rounded-xl flex justify-center items-center relative">

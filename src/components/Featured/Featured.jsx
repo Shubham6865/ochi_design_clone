@@ -65,7 +65,7 @@ const Featured = () => {
   const cards = cardData.map(() => useAnimation());
 
   return (
-    <div className="w-full px-0 md:px-[5vw]">
+    <div className="w-full px-0 md:px-[5vw]" id='ourwork'>
       <div className="w-full px-8 border-b-[1px] border-zinc-400 py-8">
         <h1 className="text-5xl font-['Neue_Montreal, Roboto, sans-serif'] tracking-tighter">
           Featured projects

@@ -33,7 +33,10 @@ const App = () => {
         <Featured />
         <Cards />
         <Footer />
+
       </BrowserRouter>
+
+
     </div>
   );
 };
