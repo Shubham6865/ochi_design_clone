@@ -2,7 +2,7 @@ import React from 'react'
 
 const Empty = () => {
   return (
-    <div>
+    <div className='bg-yellow-500 h-[30vh]'>
       Empty
     </div>
   )

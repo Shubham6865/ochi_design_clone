@@ -16,25 +16,26 @@ const Eyes = () => {
     })
     return (
         <div className='eyes w-full h-screen  overflow-hidden'>
-            <div data-scroll data-scroll-speed="-0.7" className=" relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
+            <div data-scroll data-scroll-speed="-0.3" className=" relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
                 <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10  ">
-
-                    <div className='w-[15vw] h-[15vw] rounded-full bg-zinc-100 flex justify-center items-center'>
+                    {/* first eye */}
+                    <div className='w-[22vw] md:w-[15vw] h-[22vw] md:h-[15vw] rounded-full bg-zinc-100 flex justify-center items-center'>
                         <div className="w-2/3 h-2/3 rounded-full bg-zinc-900 relative">
                             <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className="line w-full h-9 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] ">
 
                                 <div className="w-6 h-6 rounded-full bg-zinc-100"></div>
                             </div>
-                            <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold'>Play</h1>
+                            <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold text-white'>Play</h1>
                         </div>
                     </div>
                     {/* second eye */}
-                    <div className='w-[15vw] h-[15vw] rounded-full bg-zinc-100 flex justify-center items-center'>
+                    <div className='w-[22vw] md:w-[15vw] h-[22vw] md:h-[15vw] rounded-full bg-zinc-100 flex justify-center items-center'>
                         <div className="w-2/3 h-2/3 rounded-full bg-zinc-900 relative">
-                            <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className="line w-full h-9 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+                            <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className="line w-full h-9 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] ">
+
                                 <div className="w-6 h-6 rounded-full bg-zinc-100"></div>
                             </div>
-                            <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold'>Play</h1>
+                            <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold text-white'>Play</h1>
                         </div>
                     </div>
 
