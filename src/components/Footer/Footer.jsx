@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
 
-            <div className='mt-[60vh]  md:mt-2 w-full h-screen  p-5  md:p-16 flex gap-5 font-["Founders_Grotesk_X-Condensed, Roboto, sans-serif"]'>
+            <div className='mt-[60vh]  md:mt-2 w-full h-[50vh] md:h-screen  p-5  md:p-16 flex gap-5 font-["Founders_Grotesk_X-Condensed, Roboto, sans-serif"]'>
                 <div className='w-full  p-5  md:p-16 flex gap-5 '>
                     <div className="w-1/2  h-full flex flex-col justify-between ">
                         <div className="heading">

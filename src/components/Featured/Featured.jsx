@@ -31,7 +31,7 @@ const Card = ({ card, index, animation }) => {
     <motion.div
       onHoverStart={() => animation.start({ y: "0" })}
       onHoverEnd={() => animation.start({ y: "100%" })}
-      className="cardcontainer h-[75vh] px-4 md:px-0 relative overflow-hidden rounded-xl"
+      className="cardcontainer md:h-[75vh] px-4 md:px-0 relative overflow-hidden rounded-xl"
     >
       <div className="mb-3 flex items-center font-semibold uppercase">
         <div className="w-3 h-3 bg-zinc-900 rounded-full mr-5"></div>
@@ -50,11 +50,11 @@ const Card = ({ card, index, animation }) => {
           </motion.span>
         ))}
       </h1>
-      <div className="w-full h-full">
+      <div className="w-full h-full ">
         <img
           src={card.imgSrc}
           alt={`img ${index + 1} url not working`}
-          className="w-full h-full object-cover"
+          className="w-full md:h-full object-cover"
         />
       </div>
     </motion.div>
@@ -65,8 +65,8 @@ const Featured = () => {
   const cards = cardData.map(() => useAnimation());
 
   return (
-    <div className="w-full px-0 md:px-[5vw]" id='ourwork'>
-      <div className="w-full px-8 border-b-[1px] border-zinc-400 py-8">
+    <div className="w-full px-0 md:px-[5vw] " id='ourwork'>
+      <div className="w-full px-8 border-b-[1px] border-zinc-400 md:py-8">
         <h1 className="text-5xl font-['Neue_Montreal, Roboto, sans-serif'] tracking-tighter">
           Featured projects
         </h1>

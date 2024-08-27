@@ -77,7 +77,7 @@ const About = () => {
                 </div>
                 <div className="md:w-1/2 h-[60vh] rounded-3xl overflow-hidden">
                     {/* Img */}
-                    <img src={image2} alt="img missing   " className={` rounded-3xl w-full h-full bg-cover transition-all ease-linear ${isHovered && 'scale-95'}`} />
+                    <img src={image2} alt="img missing   " className={` rounded-3xl w-full h-[40vh] md:h-full bg-cover transition-all ease-linear ${isHovered && 'scale-95'}`} />
                 </div>
             </div>
         </div >

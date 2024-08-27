@@ -15,8 +15,8 @@ const Eyes = () => {
         })
     })
     return (
-        <div className='eyes w-full h-screen  overflow-hidden' id='insights'>
-            <div data-scroll data-scroll-speed="-0.3" className=" relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
+        <div className='eyes w-full h-[60vh] md:h-screen  overflow-hidden' id='insights'>
+            <div data-scroll data-scroll-speed="-0.3" className=" relative w-full h-[40vh] md:h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
                 <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10  ">
                     {/* first eye */}
                     <div className='w-[22vw] md:w-[15vw] h-[22vw] md:h-[15vw] rounded-full bg-zinc-100 flex justify-center items-center'>

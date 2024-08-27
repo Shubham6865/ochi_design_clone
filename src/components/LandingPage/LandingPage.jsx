@@ -9,7 +9,7 @@ const LandingPage = () => {
 
 
     return (
-        <div data-scroll data-scroll-speed="-.3" className=' bg-[#F1F1F1] w-full h-screen pt-1' id='home'>
+        <div data-scroll data-scroll-speed="-.3" className=' bg-[#F1F1F1] w-full pb-10 pt-1 ' id='home'>
             <div className='flex items-center justify-between  '>
                 <div className="textstructure mt-10 md:mt-24 px-10 md:px-20">
                     {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
